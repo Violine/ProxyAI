@@ -128,6 +128,14 @@
           use-shortcut-of="EditorLineEnd"
           class="ee.carlrobert.codegpt.codecompletions.AcceptNextLineInlayAction"/>
 
+        <action
+          id="CodeGPT.ClearTags"
+          class="ee.carlrobert.codegpt.actions.toolwindow.ClearChatTagsAction"
+          text="Clear Tags"
+          description="Clear all files tags in active chat">
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt shift T" replace-all="true"/>
+        </action>
+
         <group id="CodeGPTEditorPopup">
             <group id="action.editor.group.EditorActionGroup"
                 text="ProxyAI"
